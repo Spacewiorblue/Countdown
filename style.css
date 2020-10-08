@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: rgba(174, 243, 72, 0.527);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-radius: 10%;
+    padding:10px;
+    border:1px solid black;
+}
+
+.atual{
+    margin-bottom:40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    border:1px solid rgba(0, 0, 0, 0.6);
+    border-radius:10%;
+}
+.atual:hover{
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgba(59, 230, 207, 0.74);
+}
+.countdown {
+    margin-top:40px;
+    display: flex;
+}
+
+.separ {
+    font-size: 80px;
+}
